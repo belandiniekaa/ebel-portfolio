@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "framework": "laravelfromscratch",
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "installCommand": "composer install && npm install",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.php"
+    }
+  ]
+}
